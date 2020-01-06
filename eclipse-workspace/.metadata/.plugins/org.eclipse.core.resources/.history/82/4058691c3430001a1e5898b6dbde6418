@@ -1,0 +1,89 @@
+package lib;
+
+import lib.Die;
+import lib.Name;
+import lib.PairOfDice;
+import lib.Rollable;
+
+public class Player implements Comparable<Name>{
+
+private Name name;
+private Rollable dice;
+
+public Player() {
+	setName(new Name());
+	setDice(new PairOfDice());
+	
+}
+
+public Player(Name name) {
+	this.name = name;
+	setDice(new PairOfDice());
+	
+}
+
+public Player(Name name, Rollable dice) {
+	this.name = name;
+	this.dice = dice;
+	
+}
+
+public Player(Name name, PairOfDice dice) {
+	this.setName(name);
+	this.setDice(dice);
+}
+
+//methods
+
+public Rollable getRollable() {
+	return dice;
+}
+
+public Player Roll() {
+	dice.roll();
+	
+}
+
+public int getDiceScore() {
+	return dice.getScore();
+
+}
+
+@Override
+public int compareTo(Name o) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+public Name getName() {
+	return name;
+}
+
+public void setName(Name name) {
+	this.name = name;
+}
+
+public Rollable getDice() {
+	return dice;
+}
+
+public void setDice(Rollable dice) {
+	this.dice = dice;
+}
+
+//Methods
+
+//Rollable Dice
+
+//toString
+
+//Comparative
+
+//Get Dice Score
+
+//Roll Dice
+
+
+}
+
+}

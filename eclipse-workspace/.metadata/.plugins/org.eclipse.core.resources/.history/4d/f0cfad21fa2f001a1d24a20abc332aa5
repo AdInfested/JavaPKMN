@@ -1,0 +1,53 @@
+package lib;
+import java.util.Iterator;
+import lib.Name;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+
+public class Register implements Iterable<Name> {
+	
+	
+	private ArrayList<Name> register;
+	
+	public Register() {
+	register = new ArrayList<>(); }
+	
+	public void addName (Name n) {
+		register.add(n);
+	}
+	
+	public Name removeName(int n) {
+		return register.remove(n);
+	}
+	
+	public void clearRegister() {
+		register.clear(); }
+		
+		public int registerSize() {
+			return register.size(); }
+			
+			public boolean isRegisterEmpty() {
+				return register.isEmpty();
+			}
+			
+			public Name getName(int i) {
+				Name n = null;
+				if (0 <= i && i < register.size()) {
+					n = register.get(i);
+				} else {
+					n = null;
+				}
+				return n;		
+			}
+
+			@Override
+			public Iterator<Name> iterator() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+
+			}
+

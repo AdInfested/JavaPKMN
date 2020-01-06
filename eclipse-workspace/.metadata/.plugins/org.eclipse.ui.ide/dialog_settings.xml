@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\zauvi\OneDrive\Documents\StartingPlayer"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\PortfolioRegister"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\MyFirstClasses"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\zauvi\OneDrive\Documents\OOD Work\PortfolioPlayer"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\Composition"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\OOD Work\Interfaces"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\OOD Work\Aggregation"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\OOD Work\ArrayLists"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\MyFirstClasses"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\PortfolioRegister"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\OOD Work\StartingPlayer"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\StartingPlayer"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\PortfolioPlayer"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\UsingObjects"/>
+			<item value="C:\Users\zauvi\OneDrive\Documents\Java\BasicJavaPrograms\BasicJavaPrograms"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="396"/>
+		<item key="DIALOG_Y_ORIGIN" value="182"/>
+		<item key="DIALOG_WIDTH" value="576"/>
+		<item key="DIALOG_HEIGHT" value="381"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+</section>

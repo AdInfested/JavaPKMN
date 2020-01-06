@@ -1,0 +1,46 @@
+package lib;
+// Imported java classes from Name and PairOfDice in order
+// to access there values, classes and strings
+import lib.Name;
+import lib.PairOfDice;
+import lib.Die;
+import lib.Rollable;
+
+
+// Need a public class and this is the default constructor
+public class Player {
+	
+// Construct custom x2
+	
+	
+// Fullname variable
+	
+public class Player	{
+		int fullName;
+		String firstName;
+		String familyName;
+	}
+
+private String fullName;
+	
+	public String toString() {
+	return fullName+" "+firstName+" "+familyName;
+	
+	}
+	
+// RollDice Method
+	
+//Get and Set Methods for Name
+
+//Get Method for Roll Of Dice
+	
+//getDiceScore method
+
+//toString Method
+
+//SetFull Player Name String
+	
+
+
+
+}

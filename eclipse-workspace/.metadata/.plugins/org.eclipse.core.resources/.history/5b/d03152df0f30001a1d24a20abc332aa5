@@ -1,0 +1,25 @@
+package lib;
+// Imported java classes from Name and PairOfDice in order
+// to access there values, classes and strings
+import lib.Name;
+import lib.PairOfDice;
+
+// Need a public class and this is the defaut constructor
+public class Player {
+	
+	private String fullName;
+
+	// Creating a string to give the full name
+public Player(String fullName) {
+	this.fullName = "firstName + familyName";
+			
+	}
+// Get Score
+	return getScore():int
+
+//Roll Dice
+
+	return roll()
+}
+
+}

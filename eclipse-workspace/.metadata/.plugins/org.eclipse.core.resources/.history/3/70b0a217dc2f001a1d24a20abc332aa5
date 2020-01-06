@@ -1,0 +1,45 @@
+package lib;
+import java.util.ArrayList;
+
+// Default Constructor
+public class Register {
+	
+	// ArrayList of Type Name
+	private ArrayList<Name> list;
+	private String familyName;
+
+	
+	//Names should be added removed and retrieved here
+	
+	public String getfamilyName() {
+		return familyName;
+	}
+	
+	//Retrieve Register Size 
+	
+	public int size() {
+		return list.size();
+	}
+	
+	//CLear all entries within
+	
+	public void clearRegister() {
+		list.clear();
+	}
+	
+	//Check Register is empty
+	
+	public boolean isRegisterEmpty() {
+		return list.isEmpty();
+	}
+	
+	//Search by family name
+	
+	//Count First name occurences
+	
+	public static void main(String[] arg)  
+	{
+
+}
+	
+}
